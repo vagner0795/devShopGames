@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import NavBar from '@/components/navbar/navbar'
 
 export default function Home() {
   return (
@@ -8,9 +9,11 @@ export default function Home() {
         <title>DevShopGames: A sua loja online de games</title>
         <meta name="description" content="DevShopGames: A sua loja online de games" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
-      <div>DevStart: A sua loja online de games</div>
+      <div>
+        <NavBar />
+      </div>
     </>
   )
 }

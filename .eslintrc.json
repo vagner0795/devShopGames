@@ -20,6 +20,6 @@
                 "no-use-before-define": ["error", { "variables": false }],
         
                 // Ajustar para nao passar por erros com react-navigation
-                "react/prop-types": ["error", {"ignore": ["navigation", "navigation.navigate"]}]
+                // "react/prop-types": ["error", {"ignore": ["navigation", "navigation.navigate"]}]
     }
   }

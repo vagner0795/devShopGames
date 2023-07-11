@@ -1,42 +1,44 @@
-## Sobre
+# DevShopGames
 
-Esse projeto foi construído para fins didáticos no evento Semana da Evolução na Programação.
 
-Esta é a base para o projeto, com todas as imagens necessárias.
 
-## Tecnologias
+<img src="/***" alt="imagem do projeto">
 
-- NextJs na sua versão 13.4.1
-- ReactJs na versão 18.2.0
 
-## Pré requisitos
 
-Você precisa ter instalado o NodeJS (Recomendado: versão 18) e o npm ou yarn.
-- Instalação do nodejs: https://nodejs.org/
 
-Também é necessário uma IDE, recomendo o VsCode
-- Instalação do VsCode: https://code.visualstudio.com/
 
-## Comandos
+> Resultado do DevShopGames.
 
-Para instalar as bibliotecas e dependências:
+### Sobre
 
-```bash
-npm i
-```
+O projeto trata-se de uma loja de jogos criada em React Nextjs.
 
-Para rodar o projeto:
+- [x] Criação do React App
+- [x] Criação do Styled-Components
+- [x] Criação do Eslint e Prettier config
+- [x] Responsividade
 
-```bash
-npm run dev
-```
+## Ver o Projeto: 
 
-Depois, é só abrir [http://localhost:3000](http://localhost:3000) com o seu navegador.
+<a 
+href="https://vagner0795.github.io/convert-money/" target="_blank">Abrir Projeto✅</a>
 
-## Redes sociais:
+## 🤝 Colaboradores
 
-Acompanhe o SejaDev em:
-- [Youtube](https://www.youtube.com/@sejaDev)
-- [Instagram](https://www.instagram.com/seja.dev/)
-- [Linkedin](https://www.linkedin.com/company/79618568)
-- [Facebook](https://www.facebook.com/sejadevoficial/)
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="/public/vagner.png" width="100px;" alt="Foto do Vagner"/><br>
+        <sub>
+          <b>Vagner Santos</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
