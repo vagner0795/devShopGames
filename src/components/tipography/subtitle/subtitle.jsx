@@ -1,5 +1,5 @@
 import React from 'react'
-import { SubTitle } from './styles.jsx'
+import { SubTitle } from './styles'
 
 export default function Subtitle({ children }) {
   return (
