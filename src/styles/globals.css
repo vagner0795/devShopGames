@@ -12,4 +12,19 @@ input{
 
 html, body{
   background-color: #1b2838;
+
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  margin: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #beeb14;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2b87ae;
+  border-radius: 20px;
 }

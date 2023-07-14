@@ -4,7 +4,7 @@ import NavBar from '@/components/navbar/navbar'
 import Subtitle from '@/components/tipography/subtitle/subtitle'
 import { Container } from '@/components/container/container'
 import SaleCard from '@/components/cards/card'
-import { ContainerSection, ContainerCardPromo } from '@/styles/styles'
+import { ContainerSection, ContainerCardPromo, ContainerCard } from '@/styles/styles'
 import GameCards from '@/components/gameCards/gameCards'
 
 export default function Home() {
@@ -29,11 +29,11 @@ export default function Home() {
           </ContainerCardPromo>
           <ContainerSection>
             <Subtitle>Outros jogos</Subtitle>
-            <div>
+            <ContainerCard>
               <GameCards />
               <GameCards />
               <GameCards />
-            </div>
+            </ContainerCard>
           </ContainerSection>
         </Container>
       </div>
