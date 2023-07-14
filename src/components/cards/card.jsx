@@ -7,7 +7,7 @@ import Button from '../button/button'
 const SaleCard = () => {
   return (
     <CardContainer>
-      <Image src="/products/forza4.jpg" width={250} height={300} />
+      <Image src="/products/forza4.jpg" width={250} height={300} alt="Image Game" />
       <Info>
         <Title>Oferta Exclusiva</Title>
         <PriceCard>
