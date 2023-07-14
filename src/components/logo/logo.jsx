@@ -6,7 +6,7 @@ export const Logo = () => {
   return (
     <div className={styles.logo}>
       <Image src="/logo.svg" width={60} height={60} />
-      <h1>DevShopGames</h1>
+      <h1 className={styles.name}>DevShopGames</h1>
     </div>
   )
 }
