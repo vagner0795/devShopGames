@@ -7,7 +7,12 @@ export const ContainerCardPromo = styled.div`
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  @media (max-width: 850px) {
+    justify-content: center;
+  }
 `
 export const ContainerCard = styled.div`
   margin-top: 20px;

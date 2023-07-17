@@ -14,7 +14,7 @@ const GameCards = () => {
           <Details>Ação, Luta, Multijogador.</Details>
           <ContainerPrice>
             <Price>R$99,90</Price>
-            <Button width="250px">Adicionar ao carrinho</Button>
+            <Button width="50%">Adicionar ao carrinho</Button>
           </ContainerPrice>
         </Info>
       </ContainerCardGame>

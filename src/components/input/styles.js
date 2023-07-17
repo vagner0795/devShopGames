@@ -5,6 +5,7 @@ export const InputStyles = styled.input`
   height: 40px;
   outline: none;
   border: none;
+  margin: 0 10px;
   border-radius: 10px;
   padding-left: 10px;
   font-size: 16px;
@@ -13,5 +14,9 @@ export const InputStyles = styled.input`
   &::placeholder {
     color: #c7c7c7;
     font-style: italic;
+  }
+
+  @media (max-width: 850px) {
+    width: auto;
   }
 `
